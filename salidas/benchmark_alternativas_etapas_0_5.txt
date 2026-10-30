@@ -1,0 +1,13 @@
+Plataforma: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel | Windows-11-10.0.26200-SP0 | Python 3.13.9
+Repeticiones: 10 | semilla: 42
+
+Etapa 0 | deque (append/popleft)                   |     110.98 ms ± 16.47
+Etapa 0 | lista (append/pop(0))                    |   31793.97 ms ± 403.01
+Etapa 1 | búsqueda binaria, 10,000 consultas       |      15.44 ms ± 1.10
+Etapa 1 | búsqueda lineal, 10,000 consultas        |    1754.57 ms ± 62.05
+Etapa 2 | heap, 10,000 push+pop                    |       7.07 ms ± 0.29
+Etapa 2 | lista ordenada (insort + pop(0))         |     589.90 ms ± 19.56
+Etapa 2 | lista sin orden (min + remove)           |    8953.58 ms ± 559.46
+Etapa 3 | tabla hash, 10,000 consultas             |       1.18 ms ± 0.83
+Etapa 3 | búsqueda binaria en arreglo ordenado     |      23.40 ms ± 2.24
+Etapa 3 | búsqueda lineal                          |   27990.96 ms ± 1014.75

@@ -1,0 +1,18 @@
+# Datos grandes: se regeneran con scripts/generar_dataset_enriquecido.py (ver README)
+*.zip
+2019-Nov-enriquecido.csv
+2019-Nov-enriquecido/
+salidas/*.csv
+!salidas/benchmark_*.csv
+
+# Versiones anteriores del notebook y borradores
+Proyecto_Ecommerce_respaldo.ipynb
+Proyecto_Ecommerce_Pipeline.ipynb
+Proyecto_Ecommerce_6,7,8y9.ipynb
+notebooks/
+pipeline/
+informe/
+*.docx
+
+__pycache__/
+.ipynb_checkpoints/
